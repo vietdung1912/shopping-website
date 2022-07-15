@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Website</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div id="root">
@@ -13,14 +14,20 @@
             <header id="header">
                 <div class="header-wrapper">
                     <div class="top-header">
-                        <h2 class="name-website">Shopping Website</h2>
-                        <input type="text" placeholder="Search">
-                        <i></i>
-                        <i></i>
+                        <h1 class="name-website">Shopping Website</h1>
+                        <div class="search">
+                            <input class="input-search" type="text" placeholder="Search">
+                            <button><i class='fa fa-search'></i></button>
+                        </div>
+                        <div class="cart">
+                            <i class='fa fa-heart'></i>
+                            <i class='fa-solid fa-cart-shopping'></i>
+                        </div>
                     </div>
+                    <div class="clear"></div>
                     <div class="bottom-header">
                         <ul class="nav">
-                            <li>Trang chủ</li>
+                            <li class="current-page">Trang chủ</li>
                             <li>Giới thiệu</li>
                             <li>Nam</li>
                             <li>Nữ</li>
@@ -36,10 +43,127 @@
                 </div>
             </div>
             <div class="content">
-
+                <div class="content-wrapper">
+                    <div class="heading-content">Gợi ý hôm nay</div>
+                    <div class="list-items">
+                        <div class="column">
+                            <div class="item row-4">
+                                <img class="image-item" src="./assets/img/item/item1.jpg" alt="">
+                                <div class="name-item">Item 1</div>
+                                <div class="price">20000</div>
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                            <div class="item row-4">
+                                <img class="image-item" src="./assets/img/item/item1.jpg" alt="">
+                                <div class="name-item">Item 1</div>
+                                <div class="price">20000</div>
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                            <div class="item row-4">
+                                <img class="image-item" src="./assets/img/item/item1.jpg" alt="">
+                                <div class="name-item">Item 1</div>
+                                <div class="price">20000</div>
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                            <div class="item row-4">
+                                <img class="image-item" src="./assets/img/item/item1.jpg" alt="">
+                                <div class="name-item">Item 1</div>
+                                <div class="price">20000</div>
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="item row-4">
+                                <img class="image-item" src="./assets/img/item/item1.jpg" alt="">
+                                <div class="name-item">Item 1</div>
+                                <div class="price">20000</div>
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                            <div class="item row-4">
+                                <img class="image-item" src="./assets/img/item/item1.jpg" alt="">
+                                <div class="name-item">Item 1</div>
+                                <div class="price">20000</div>
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                            <div class="item row-4">
+                                <img class="image-item" src="./assets/img/item/item1.jpg" alt="">
+                                <div class="name-item">Item 1</div>
+                                <div class="price">20000</div>
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                            <div class="item row-4">
+                                <img class="image-item" src="./assets/img/item/item1.jpg" alt="">
+                                <div class="name-item">Item 1</div>
+                                <div class="price">20000</div>
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="heading-content">
+                        <div class="active">Sản phẩm bán chạy</div>
+                        <div>Sản phẩm mới</div>
+                        <div>Sản phẩm phổ biến</div>
+                    </div>
+                    <div class="list-items">
+                        <div class="column">
+                            <div class="item row-4">
+                                <img class="image-item" src="./assets/img/item/item1.jpg" alt="">
+                                <div class="name-item">Item 1</div>
+                                <div class="price">20000</div>
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                            <div class="item row-4">
+                                <img class="image-item" src="./assets/img/item/item1.jpg" alt="">
+                                <div class="name-item">Item 1</div>
+                                <div class="price">20000</div>
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                            <div class="item row-4">
+                                <img class="image-item" src="./assets/img/item/item1.jpg" alt="">
+                                <div class="name-item">Item 1</div>
+                                <div class="price">20000</div>
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                            <div class="item row-4">
+                                <img class="image-item" src="./assets/img/item/item1.jpg" alt="">
+                                <div class="name-item">Item 1</div>
+                                <div class="price">20000</div>
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="item row-4">
+                                <img class="image-item" src="./assets/img/item/item1.jpg" alt="">
+                                <div class="name-item">Item 1</div>
+                                <div class="price">20000</div>
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                            <div class="item row-4">
+                                <img class="image-item" src="./assets/img/item/item1.jpg" alt="">
+                                <div class="name-item">Item 1</div>
+                                <div class="price">20000</div>
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                            <div class="item row-4">
+                                <img class="image-item" src="./assets/img/item/item1.jpg" alt="">
+                                <div class="name-item">Item 1</div>
+                                <div class="price">20000</div>
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                            <div class="item row-4">
+                                <img class="image-item" src="./assets/img/item/item1.jpg" alt="">
+                                <div class="name-item">Item 1</div>
+                                <div class="price">20000</div>
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="footer">
-
+                <div class="footer-wrapper">
+                    <div class="name">Design by me</div>
+                </div>
             </div>
         </div>
     </div>
