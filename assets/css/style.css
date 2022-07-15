@@ -15,10 +15,19 @@ html, body {
 
 #wrapper {
     /* float: left; */
+    padding: 16px 24px;
+}
+
+.top-header {
+    width: 100%;
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-around;
 }
 
 .bottom-header {
     /* display: block; */
+    padding-bottom: 16px;
 }
 
 .nav {
@@ -26,9 +35,11 @@ html, body {
     width: 100%;
     justify-content: space-around;
     /* margin: auto; */
+    list-style-type: none;
 }
 
 .nav li {
+    /* text-decoration: none; */
     /* float: left; */
     /* margin: auto; */
     /* text-align: center; */
@@ -36,4 +47,21 @@ html, body {
     /* display: inline-block; */
     /* text-align: center;
     justify-content: center; */
+}
+
+.nav li:hover {
+    cursor: pointer;
+}
+.banner {
+    width: 100%;
+
+}
+
+.banner-wrapper {
+    width: 100%;
+}
+
+.img-banner {
+    display: block;
+    width: 100%;
 }
